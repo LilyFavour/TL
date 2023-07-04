@@ -1,0 +1,60 @@
+
+body {
+    background-image: url("images\home.jpg");
+  }
+  
+  header {
+    background-color: #f2f2f2;
+    padding: 20px;
+  }
+  
+  nav{
+    display: flex;
+    padding: 2% 8%;
+    justify-content:space-between;
+    align-items: center;
+}
+nav img{
+    width: 150px;
+    float: left;
+    height: auto;
+}
+  nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-align: right;
+  }
+  
+  nav ul li {
+    display: inline-block;
+    padding: 8px 12px;
+    position: relative;
+    border: 1px solid #ffff;
+  }
+  
+  nav ul li a {
+    padding: 10px;
+    text-decoration: none;
+    color: #00c6ff;
+    font-size: 13px;
+  }
+  nav-links ul li ::after{
+    content:'' ;
+    width: 0%;
+    height: 2px;
+    background: #fff; ;
+    display: block;
+    margin: auto;
+    transition: 0.5s;
+}
+.nav-links ul li :hover:after{
+    width: 100%;
+}
+  
+  main {
+    padding: 20px;
+    text-align: center;
+  }
+  
+  
